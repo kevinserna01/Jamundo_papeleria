@@ -167,14 +167,14 @@ const SalesReportPDF = ({ sales, totalSales, totalItems, startDate, endDate }: {
             src="/assets/logo.png"
             style={pdfStyles.logo}
           />
-          <Text style={pdfStyles.companyInfo}>NIT: 38670789-4</Text>
+          <Text style={pdfStyles.companyInfo}>NIT: 1108561900</Text>
           <View style={pdfStyles.infoRow}>
             <PhoneIcon />
-            <Text style={pdfStyles.companyInfo}>+57 310 4183311</Text>
+            <Text style={pdfStyles.companyInfo}>+57 317 7828994</Text>
           </View>
           <View style={pdfStyles.infoRow}>
             <LocationIcon />
-            <Text style={pdfStyles.companyInfo}>Calle 17 N 14-25 Barrio La Pradera Jamundi</Text>
+            <Text style={pdfStyles.companyInfo}>Cra 10 Manzana c Casa 14 Jamundí</Text>
           </View>
           <Text style={pdfStyles.companyInfo}>Jamundi, Colombia</Text>
         </View>
@@ -239,7 +239,7 @@ const SalesReportPDF = ({ sales, totalSales, totalItems, startDate, endDate }: {
         <Text>© {new Date().getFullYear()} Papelería - Todos los derechos reservados</Text>
         <View style={[pdfStyles.infoRow, { justifyContent: 'center', marginTop: 8 }]}>
           <PhoneIcon />
-          <Text>Para cualquier consulta, contáctenos al (+57) 310 4183311</Text>
+          <Text>Para cualquier consulta, contáctenos al (+57) 317 7828994</Text>
         </View>
       </View>
     </Page>

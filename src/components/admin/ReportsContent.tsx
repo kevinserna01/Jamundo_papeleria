@@ -334,18 +334,18 @@ const ReportPDF = ({ data, timeRange, startDate, endDate, summary, dailySales, c
             src="/assets/logo.png"
             style={pdfStyles.logo}
           />
-          <Text style={pdfStyles.companyInfo}>NIT: 38670789-4</Text>
+          <Text style={pdfStyles.companyInfo}>NIT: 1108561900</Text>
           <View style={pdfStyles.infoRow}>
             <View style={pdfStyles.iconContainer}>
               <PhoneIcon />
             </View>
-            <Text style={pdfStyles.infoText}>+57 310 4183311</Text>
+            <Text style={pdfStyles.infoText}>+57 317 7828994</Text>
           </View>
           <View style={pdfStyles.infoRow}>
             <View style={pdfStyles.iconContainer}>
               <LocationIcon />
             </View>
-            <Text style={pdfStyles.infoText}>Calle 17 N 14-25 Barrio La Pradera Jamundi</Text>
+            <Text style={pdfStyles.infoText}>Cra 10 Manzana c Casa 14 Jamundí</Text>
           </View>
         </View>
         <View style={pdfStyles.headerRight}>
@@ -479,7 +479,7 @@ const ReportPDF = ({ data, timeRange, startDate, endDate, summary, dailySales, c
           <View style={pdfStyles.iconContainer}>
             <PhoneIcon />
           </View>
-          <Text>Para cualquier consulta, contáctenos al (+57) 310 4183311</Text>
+          <Text>Para cualquier consulta, contáctenos al (+57) 317 7828994</Text>
         </View>
       </View>
     </Page>
