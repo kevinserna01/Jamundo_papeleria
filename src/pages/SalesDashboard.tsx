@@ -130,7 +130,7 @@ const SalesDashboard = () => {
           <div className="flex items-center flex-1 min-w-0 gap-1 w-full sm:w-auto">
             <img src="/assets/logo.png" alt="Logo Papelería" className="h-16 w-16 object-contain" />
             <div className="flex flex-col justify-center min-w-0">
-              <span className="text-2xl font-bold text-gray-900 truncate" aria-label="Nombre de la papelería">Papeleria x</span>
+              <span className="text-2xl font-bold text-gray-900 truncate" aria-label="Nombre de la papelería">PAPELERIA JAMUNDO </span>
               <span className="text-sm text-gray-600 truncate" aria-label="Nombre del usuario">{userName}</span>
             </div>
           </div>
