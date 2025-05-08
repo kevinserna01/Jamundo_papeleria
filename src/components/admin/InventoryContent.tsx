@@ -251,8 +251,7 @@ const InventoryContent = () => {
       const response = await fetch('https://papeleria-back.vercel.app/v2/papeleria/updateInventoryProductapi', {
         method: 'PUT',
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           code: editingProduct.code,
@@ -304,8 +303,7 @@ const InventoryContent = () => {
       const response = await fetch('https://papeleria-back.vercel.app/v2/papeleria/updateInventoryProductapi', {
         method: 'PUT',
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           code: editingProduct.code,
